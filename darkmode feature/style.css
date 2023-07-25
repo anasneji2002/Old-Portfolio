@@ -1,0 +1,46 @@
+body {
+  background-color: white;
+  color: rgb(36, 36, 36);
+  margin: 15px;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+#button {
+  display: inline;
+  cursor: pointer;
+}
+#circle {
+  display: block;
+  background-color: rgb(235, 229, 229);
+  width: 32px;
+  height: 32px;
+  border-radius: 32px;
+  position: relative;
+  top: -26px;
+  left: 135px;
+  z-index: 4;
+}
+#slide {
+  display: block;
+  background-color: rgb(204, 203, 203);
+  height: 30px;
+  width: 50px;
+  position: relative;
+  top: -57px;
+  left: 135px;
+  border-radius: 50px;
+  z-index: 3;
+}
+
+/* #circle:active {
+  transform: translate(32px);
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+
+#circle:active + #slide {
+  background-color: rgb(71, 214, 71);
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+} */
